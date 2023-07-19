@@ -19,45 +19,10 @@ Atau bisa dengan menginstall requirements.txt dengan cara berikut
 pip install -r requirements.txt
 ```
 
-## Rubics
+## Worflow
 
-- Environment preparation (2 points)
-- Finding the right key to scrap the data  & Extracting the right information (5 points)
-- Creating data frame & Data wrangling (5 points)
-- Creating a tidy python notebook as a report. (2 points)
-- Implement it on flask dashboard (2 points)
+- Environment preparation 
+- Finding the right key to scrap the data  & Extracting the right information 
+- Creating data frame & Data wrangling 
+- Implement it on flask dashboard 
 
-
-## Syntax-syntax untuk menjalankan projek
-
-
-```python
-table = soup.find(___)
-tr = table.find_all(___)
-```
-
-
-```python
-df = pd.DataFrame(name of your tupple, columns = (name of the columns))
-```
-
-
-```python
-df = scrap(___) #insert url here
-```
-
-
-
-
-### Sumber Data
-
-
-(Medium) Data kurs US Dollar ke rupiah dari `https://www.exchange-rates.org/history/IDR/USD/T`
-
-    * Dari halaman tersebut carilah `harga harian`, dan `tanggal`
-    * Bualah plot pergerakan kurs USD 
-    
-
-
-
-Thanks !
